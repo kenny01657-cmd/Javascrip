@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: "sans-serif";
+}
+
+div.picture-holder {
+    box-sizing: border-box;
+    height: 450px;
+    width: 300px;
+    float: left;
+}
+
+div.favoriet {
+    width: 300px;
+    height: 150px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pics {
+    width: 900px;
+    height: 1350px;
+    font-size: 0px;
+    margin: auto;
+}
+
+#pics img {
+    width: 100%;
+    height: 66%;
+}
