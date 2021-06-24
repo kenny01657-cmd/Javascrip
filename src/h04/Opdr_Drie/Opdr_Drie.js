@@ -6,9 +6,9 @@ var neusEl = document.getElementById("neus-el");
 
 var mondEl = document.getElementById("mond-el");
 
-var ogenTeller = 0;
-var neusTeller = 0;
-var mondTeller = 0;
+var ogenTeller = 1;
+var neusTeller = 1;
+var mondTeller = 1;
 
 ogenEl.addEventListener("click", function() {
     ogenEl.style.backgroundImage = "url('Ogen/Ogen" + ogenSlider() + ".jpg')";
