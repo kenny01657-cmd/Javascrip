@@ -1,0 +1,35 @@
+html {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    /*border: 1px black solid;*/
+}
+
+#ogen-el {
+    height: 32.5%;
+    width: 99%;
+    /*border: 1px blue solid;*/
+    background-image: url("Ogen/Ogen1.jpg");
+}
+
+#neus-el {
+    height: 32.5%;
+    width: 99%;
+    /*border: 1px red solid;*/
+    background-image: url("Neus/Neus1.jpg");
+}
+
+#mond-el {
+    height: 32.5%;
+    width: 99%;
+    /*border: 1px black solid;*/
+    background-image: url("Mond/Mond1.webp");
+}
+

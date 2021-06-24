@@ -5,8 +5,8 @@ let teller = 0;
 slideholder.style.backgroundImage = "url('img/aap1.jpg')";
 
 slideholder.addEventListener("click", function() {
-    getAap();
-   slideholder.style.backgroundImage = "url('img/aap" + getAap() +".jpg')";
+   getAap();
+   slideholder.style.backgroundImage = "url('img/aap" + getAap() + ".jpg')";
 });
 
 
